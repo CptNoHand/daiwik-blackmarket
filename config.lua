@@ -3,7 +3,7 @@ Config                      = {}
 
 Config.BlackMarketBlip = true
 
-Config.CashCurrency = "₹"       
+Config.CashCurrency = "$"       
 Config.MarkerDistance = 6.0                     -- The View Distance for the Pickup Location Markers.
 
 Config.Locations = {                            -- Pickup Locations.
@@ -35,9 +35,9 @@ Config.BlackMarket = {
     [1] = {
         item = "trojan_usb",
         rep = 0,
-        type = "Cash",
+        type = "Crypto",
         costs = {
-            ["Cash"] = 25000,
+            ["Crypto"] = 1,
         },
         icon = "fa-solid fa-laptop-code",
     },
@@ -46,12 +46,12 @@ Config.BlackMarket = {
         rep = 20,
         type = "Crypto",
         costs = {
-            ["Crypto"] = 69,
+            ["Crypto"] = 1,
         },
         icon = "fa-solid fa-laptop-code",
     },
     [3] = {
-        item = "laptop",
+        item = "labkey",
         rep = 40,
         type = "Items",
         costs = {
@@ -61,12 +61,29 @@ Config.BlackMarket = {
         icon = "fa-solid fa-laptop-code",
     },
     [4] = {
-        item = "radioscanner",
+        item = "decryptionkey3",
         rep = 50,
-        type = "Items",
+        type = "Crypto",
         costs = {
-            ["metalscrap"] = 85,
-            ["aluminum"] = 45,
+            ["Crypto"] = 1,
+        },
+        icon = "fa-solid fa-laptop-code",
+    },
+    [5] = {
+        item = "security_card_01",
+        rep = 40,
+        type = "Crypto",
+        costs = {
+            ["Crypto"] = 3,
+        },
+        icon = "fa-solid fa-laptop-code",
+    },
+    [6] = {
+        item = "security_card_02",
+        rep = 40,
+        type = "Crypto",
+        costs = {
+            ["Crypto"] = 3,
         },
         icon = "fa-solid fa-laptop-code",
     },
