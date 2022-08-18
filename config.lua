@@ -27,7 +27,7 @@ Config.PointofInterest = {                       -- Blackmarket Location.
         Name                = 'Black Market',
         Enter               = vector3(-80.60, -1326.1, 29.27),
 	    Exit                = vector3(179.06, -999.87, -99.0),
-        Blip                = true,
+        Blip                = false,
     },
 }
 
@@ -43,7 +43,7 @@ Config.BlackMarket = {
     },
     [2] = {
         item = "electronickit",
-        rep = 20,
+        rep = 0,
         type = "Crypto",
         costs = {
             ["Crypto"] = 1,
@@ -52,7 +52,7 @@ Config.BlackMarket = {
     },
     [3] = {
         item = "labkey",
-        rep = 40,
+        rep = 0,
         type = "Items",
         costs = {
             ["electronickit"] = 2,
@@ -62,7 +62,7 @@ Config.BlackMarket = {
     },
     [4] = {
         item = "decryptionkey3",
-        rep = 50,
+        rep = 0,
         type = "Crypto",
         costs = {
             ["Crypto"] = 1,
@@ -71,7 +71,7 @@ Config.BlackMarket = {
     },
     [5] = {
         item = "security_card_01",
-        rep = 40,
+        rep = 0,
         type = "Crypto",
         costs = {
             ["Crypto"] = 3,
@@ -80,7 +80,7 @@ Config.BlackMarket = {
     },
     [6] = {
         item = "security_card_02",
-        rep = 40,
+        rep = 0,
         type = "Crypto",
         costs = {
             ["Crypto"] = 3,
