@@ -35,37 +35,37 @@ Config.BlackMarket = {
     [1] = {
         item = "trojan_usb",
         rep = 0,
-        type = "Crypto",
+        type = "Cash",
         costs = {
-            ["Crypto"] = 1,
+            ["Cash"] = 250,
         },
         icon = "fa-solid fa-laptop-code",
     },
     [2] = {
         item = "electronickit",
         rep = 0,
-        type = "Crypto",
+        type = "Cash",
         costs = {
-            ["Crypto"] = 1,
+            ["Cash"] = 250,
         },
         icon = "fa-solid fa-laptop-code",
     },
     [3] = {
-        item = "labkey",
+        item = "meth_lab",
         rep = 0,
-        type = "Items",
+        type = "Cash",
         costs = {
-            ["electronickit"] = 2,
-            ["trojan_usb"] = 2,
+            ["Cash"] = 1500,
         },
         icon = "fa-solid fa-laptop-code",
     },
     [4] = {
         item = "decryptionkey3",
         rep = 0,
-        type = "Crypto",
+        type = "Items",
         costs = {
-            ["Crypto"] = 1,
+            ["electronickit"] = 1,
+            ["trojan_usb"] = 1,
         },
         icon = "fa-solid fa-laptop-code",
     },
@@ -84,6 +84,33 @@ Config.BlackMarket = {
         type = "Crypto",
         costs = {
             ["Crypto"] = 3,
+        },
+        icon = "fa-solid fa-laptop-code",
+    },
+    [7] = {
+        item = "kq_angle_grinder",
+        rep = 0,
+        type = "Cash",
+        costs = {
+            ["Cash"] = 1000,
+        },
+        icon = "fa-solid fa-laptop-code",
+    },
+    [8] = {
+        item = "usb3",
+        rep = 0,
+        type = "Crypto",
+        costs = {
+            ["Crypto"] = 1,
+        },
+        icon = "fa-solid fa-laptop-code",
+    },
+    [9] = {
+        item = "thermite",
+        rep = 0,
+        type = "Cash",
+        costs = {
+            ["Cash"] = 200,
         },
         icon = "fa-solid fa-laptop-code",
     },
